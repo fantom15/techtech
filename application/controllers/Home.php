@@ -42,19 +42,19 @@ class Home extends CI_Controller
 
 	public function seventh($type)
 	{
-		$data['content'] = $this->load->view('seven-'.$type, NULL, true);
+		$data['content'] = $this->load->view('seven-' . $type, NULL, true);
 		$this->load->view('master_page', $data);
 	}
 
 	public function eighth($type)
 	{
-		$data['content'] = $this->load->view('eight'.$type, NULL, true);
+		$data['content'] = $this->load->view('eight' . $type, NULL, true);
 		$this->load->view('master_page', $data);
 	}
 
 	public function ninth($type)
 	{
-		$data['content'] = $this->load->view('ninth'.$type, NULL, true);
+		$data['content'] = $this->load->view('ninth' . $type, NULL, true);
 		$this->load->view('master_page', $data);
 	}
 
@@ -66,7 +66,7 @@ class Home extends CI_Controller
 
 	public function conclusion($type)
 	{
-		$data['content'] = $this->load->view('conclusion-'.$type, NULL, true);
+		$data['content'] = $this->load->view('conclusion-' . $type, NULL, true);
 		$this->load->view('master_page', $data);
 	}
 
@@ -80,5 +80,6 @@ class Home extends CI_Controller
 	{
 		$data['content'] = $this->load->view('qr-red', NULL, true);
 		$this->load->view('master_page', $data);
+		//6(q?T_vQ&ld_s1f}6aCkLwT/0fCb3&7G}e(Exw!M6MECo&!UE
 	}
 }

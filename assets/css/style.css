@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Avenir-Black';
+    src: url('../font/Avenir-Black.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Avenir-Light';
+    src: url('../font/Avenir-Light.woff') format('woff');
+}
+
+.main-bg{
+    background-color: #E8E0F9;
+    ;
+}
+
+body{
+    font-family: 'Avenir-Black';
+}
+.raise-hand-box{
+    position: absolute;
+    width: 80%;
+    background-color: rgba(14, 9, 6, 0.75);
+    color: #fff;
+    left: 10%;
+    bottom: 50px;
+    border-radius: 27px;
+    text-align: center;
+    z-index: 1000;
+    padding: 25px 0;
+    
+}
+
+.raise-hand-box h2{
+    font-size: 3rem!important;
+}
+
+.raise-hand-circle-right,
+.raise-hand-circle-left{
+    width: 150px; 
+    height: 150px; 
+    text-align: center;
+    bottom: 40px; 
+    position: absolute; 
+    background-color: #fff;
+    border-radius: 50%; 
+    z-index: 1000;
+    box-shadow: 4px 4px 20px 10px rgba(0, 0, 0, 0.25);
+}
+
+.raise-hand-circle-right{
+    right: 8%; 
+}
+
+.raise-hand-circle-left{
+    left: 8%;
+}
+

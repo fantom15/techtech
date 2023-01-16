@@ -81,5 +81,8 @@ class Home extends CI_Controller
 		$data['content'] = $this->load->view('qr-red', NULL, true);
 		$this->load->view('master_page', $data);
 		//6(q?T_vQ&ld_s1f}6aCkLwT/0fCb3&7G}e(Exw!M6MECo&!UE
+
+		// Username: datashoes
+		// Passcode: A!0tJ-&$k]Y%HuA8CWF!7(5L€@FWl8m3[7ywdDOxMQ$eK%c@S
 	}
 }
